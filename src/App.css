@@ -1,0 +1,17 @@
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border: 2px solid black;
+  font-size: 32px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.square:hover {
+  background-color: lightgray;
+}
